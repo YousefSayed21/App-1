@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Elements = () => {
+const ELEMENTS = () => {
   return (
     <div>Elements</div>
   )
 }
 
-export default Elements
+export default ELEMENTS

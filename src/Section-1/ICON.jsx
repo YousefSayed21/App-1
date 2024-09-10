@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Icon1 = () => {
+const ICON = () => {
   return (
     <div>Icon1</div>
   )
 }
 
-export default Icon1
+export default ICON

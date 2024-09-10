@@ -1,16 +1,4 @@
-import React from 'react'
 
-
-
-import {BrowserRouter , Routes , Route , Link } from 'react-router-dom';
-
-import Home from './Home';
-import Pages from './Pages';
-import Portofolio from './Portofolio';
-import Blog from './Blog';
-import Shop from './Shop';
-import Elements from './Elements';
-import Icon1 from './Icon1';
 
 
 
@@ -24,44 +12,49 @@ import { Autoplay, Navigation } from 'swiper/modules';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 
-// Import Swiper styles
 
 
 import './NavBar.css';
 
-const NavBar = () => {
+
+import React from 'react'
+
+
+
+import {BrowserRouter , Routes , Route , Link } from 'react-router-dom';
+
+import HOME from './HOME';
+import PAGES from './PAGES';
+import PORTOFOLIO from './PORTOFOLIO';
+import BLOG from './BLOG';
+import SHOP from './SHOP';
+import ELEMENTS from './ELEMENTS';
+import ICON from './ICON';
+const NAVBAR = () => {
   return (
+    <>
         <BrowserRouter>
                 <nav>
                     <Link to="/">HOME</Link>
-                    <Link to="/Pages">PAGES</Link>
-                    <Link to="/Portofolio">PORTOFOLIO</Link>
-                    <Link to="/Blog">BLOG</Link>
-                    <Link to="/Shop">SHOP</Link>
-                    <Link to="/Elements">ELEMENTS</Link>
-                    <Link to="/Icon">ICON</Link>
+                    <Link to="/PAGES">PAGES</Link>
+                    <Link to="/PORTOFOLIO">PORTOFOLIO</Link>
+                    <Link to="/BLOG">BLOG</Link>
+                    <Link to="/SHOP">SHOP</Link>
+                    <Link to="/ELEMENTS">ELEMENTS</Link>
+                    <Link to="/ICON">ICON</Link>
                 </nav>
                 <Routes>
-                    <Route path="/" element={<Home />}/>
-                    <Route path="/Pages" element={<Pages />}/>
-                    <Route path="/Portofolio" element={<Portofolio />}/>
-                    <Route path="/Blog" element={<Blog />}/>
-                    <Route path="/Shop" element={<Shop />}/>
-                    <Route path="/Elements" element={<Elements />}/>
-                    <Route path="/Icon1" element={<Icon1 />}/>
+                    <Route path="/" element={<HOME />}/>
+                    <Route path="/PAGES" element={<PAGES />}/>
+                    <Route path="/PORTOFOLIO" element={<PORTOFOLIO />}/>
+                    <Route path="/BLOG" element={<BLOG />}/>
+                    <Route path="/SHOP" element={<SHOP />}/>
+                    <Route path="/ELEMENTS" element={<ELEMENTS />}/>
+                    <Route path="/ICON" element={<ICON />}/>
                 </Routes>
         </BrowserRouter>
-
-  )
-}
-
-export default NavBar
-
-
-
-
-
-                /* <Swiper
+        <div>
+                            <Swiper
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
@@ -84,4 +77,16 @@ export default NavBar
             <SwiperSlide><img src="\images\img12.jpg" alt="" /></SwiperSlide>
             <SwiperSlide><img src="\images\img12.jpg" alt="" /></SwiperSlide>
             <SwiperSlide><img src="\images\img12.jpg" alt="" /></SwiperSlide>
-            </Swiper> */
+            </Swiper>
+        </div>
+        </>
+
+  )
+}
+
+export default NAVBAR
+
+
+
+
+
