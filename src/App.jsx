@@ -1,13 +1,12 @@
 import React  from 'react'
-import NavYousef from './Nav/NavYousef'
+import Home from './Home'
 
 const App = () => {
 
   return (
 
-        <div className='text-white'>
-          
-          <NavYousef />
+        <div>
+          <Home />
         </div>
 
       

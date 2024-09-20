@@ -1,0 +1,31 @@
+/* .img2{
+    background-image: url('../../public/images/623503637e979197919c6c03_Topology-1\ \(1\).svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.yousef2{
+    border: 1px solid rgb(241, 117, 16) ;
+}
+.yousef2:hover{
+    color:rgb(241, 117, 16) ;
+    cursor: pointer;
+    border:1px solid white;
+}
+@media (max-width:768px) and (min-width:450px){
+    .ml-20{
+        margin-left: 10px;
+    }
+    .mr-20{
+        margin-right: 10px;
+    }
+    .yousef3{
+        width: 150px;
+    }
+    .yousef4{
+        margin-top: 50px;
+    }
+    .btn2{
+        width: 20px;
+    }
+}
