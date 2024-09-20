@@ -12,7 +12,7 @@
     cursor: pointer;
     border:1px solid white;
 }
-@media (max-width:768px) and (min-width:450px){
+@media (max-width:768px) and (min-width:400px){
     .ml-20{
         margin-left: 10px;
     }
@@ -23,7 +23,10 @@
         width: 150px;
     }
     .yousef4{
-        margin-top: 50px;
+        margin-top: 60px;
+    }
+    .yousef6{
+        font-size: 12px;
     }
     .btn2{
         width: 20px;

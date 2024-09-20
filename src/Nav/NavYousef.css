@@ -1,4 +1,4 @@
-a:hover{
+.flex a:hover{
     color:rgb(241, 117, 16);
     transform: scale(1.2);
     transition: all .5s ease;

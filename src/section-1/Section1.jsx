@@ -21,8 +21,8 @@ const Section = () => {
 
         <div className='w-3/6 img2 relative mr-20'>
         <img src="\images\623503637e979197919c6c03_Topology-1 (1).svg" className='w-full yousef3' alt="" />
-        <div className='absolute inset-0 flex justify-around items-center yousef3'>
-          <img src="\images\623a183aa76fb537cbc5dc0e_Group 8-p-500.png" alt="no validate" className='w-4/5' />
+        <div className='absolute inset-0 flex justify-center items-center yousef3'>
+          <img src="\images\623a183aa76fb537cbc5dc0e_Group 8-p-500.png" alt="no validate" className='w-4/5 full' />
         </div>
       </div>
 
