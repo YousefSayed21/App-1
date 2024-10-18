@@ -1,17 +1,33 @@
-import React  from 'react'
-import Home from './Home'
+import React, { useEffect, useState }  from 'react'
+import './App.css'
+import NavYousef from './Nav/NavYousef';
+import Loading from './loading/Loading';
+
 
 const App = () => {
 
-  return (
+  const [loading , setLoading] = useState(false)
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    } , 3000)
+  } , [])
 
-        <div>
-          <Home />
-        </div>
+
+
+  return (
+    <>
+
+        {
+          loading ? <Loading /> : <NavYousef />
+        }
 
       
-  )
+
+    </>
+  );
   
 }
 
-export default App
+export default App;

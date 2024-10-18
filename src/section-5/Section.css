@@ -1,0 +1,25 @@
+.images1{
+    width: 15rem;
+}
+.images2{
+    width: 18.8rem;
+}
+.images3{
+    width: 16rem;
+}
+
+.yousefsayed{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:915px) and (min-width:400px){
+    .yousef15{
+        font-size: 18px;
+    }
+    .yousef16{
+        font-size: 14px;
+    }
+    .tre{
+        font-size: 35px;
+    }
+}

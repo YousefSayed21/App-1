@@ -1,9 +1,7 @@
 import axios from 'axios'
-import React, { useEffect, useState , useRef } from 'react'
-// Import Swiper React components
+import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
@@ -11,7 +9,6 @@ import 'swiper/css/pagination';
 import './Section.css';
 import './Swiper.css'
 
-// import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 
 

@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    z-index: 9999;
+  }

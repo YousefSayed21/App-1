@@ -2,14 +2,16 @@ import React from 'react'
 import './Section.css'
 const Section4 = () => {
   return (
+    <>
+    <div id='Process'></div>
     <div className='ml-20 mr-20 mt-32 myPhoto text-white'>
       <div className='text-5xl text-center yousef12'>
         How it's done
       </div>
-      <div className='flex justify-start'>
+      <div className='flex justify-start' data-aos="fade-down">
         <div className='flex items-start gap-3 mt-8 w-2/4 pl-4 yousefbg py-2 rounded-md justify-start'>
           <div>
-            <img src="\images\6232406724bd9b36622aed48_image 3 (Traced).svg" className='w-10' alt="no validate" />
+            <img src="/images/6232406724bd9b36622aed48_image 3 (Traced).svg" className='w-10' alt="no validate" />
           </div>
           <div>
             <div className='yousef11'>
@@ -21,10 +23,10 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-end'>
+      <div className='flex justify-end' data-aos="fade-down">
         <div className='flex items-start gap-3 mt-8 w-2/4 pl-4 yousefbg py-2 rounded-md justify-start'>
           <div>
-            <img src="\images\623240674411e07510215b6f_image 2 (Traced).svg"  className='w-14' alt="no validate" />
+            <img src="/images/623240674411e07510215b6f_image 2 (Traced).svg"  className='w-14' alt="no validate" />
           </div>
           <div>
             <div className='yousef11'>
@@ -37,10 +39,10 @@ const Section4 = () => {
         </div>
       </div>
 
-      <div className='flex justify-start'>
+      <div className='flex justify-start' data-aos="fade-down">
         <div className='flex items-start gap-3 mt-8 w-2/4 pl-4 yousefbg py-2 rounded-md justify-start'>
           <div>
-            <img src="\images\6296648937731de4e98d9a5a_zapier-seeklogo.com 2.svg"  className='w-14' alt="no validate" />
+            <img src="/images/6296648937731de4e98d9a5a_zapier-seeklogo.com 2.svg"  className='w-14' alt="no validate" />
           </div>
           <div>
             <div className='yousef11'>
@@ -52,10 +54,10 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-end'>
+      <div className='flex justify-end' data-aos="fade-down">
         <div className='flex items-start gap-3 mt-8 w-2/4 pl-4 yousefbg py-2 rounded-md justify-start'>
           <div>
-            <img src="\images\62324067d42bfc263ee547ff_image 4 (Traced).svg"  className='w-14 ' alt="no validate" />
+            <img src="/images/62324067d42bfc263ee547ff_image 4 (Traced).svg"  className='w-14 ' alt="no validate" />
           </div>
           <div>
             <div className='yousef11'>
@@ -67,8 +69,8 @@ const Section4 = () => {
           </div>
         </div>
       </div>
-
     </div>
+    </>
   )
 }
 

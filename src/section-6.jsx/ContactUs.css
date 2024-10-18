@@ -1,0 +1,29 @@
+.yousef7{
+    color:rgb(241, 117, 16);
+}
+.input-11 input , .input-12 input , .input-13 input , .input-14 input , .input-15 textarea{
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.input-11 , .input-12 , .input-13 , .input-14 , .input-15{
+    border: 1px solid rgb(104, 60, 24);
+
+}
+.input-11 input::placeholder , .input-12 input::placeholder , .input-13 input::placeholder , .input-14 input::placeholder , .input-15 textarea::placeholder{
+    color: white;
+}
+.input-16{
+    color: white;
+    background-color:rgb(241, 117, 16) ;
+}
+.input-16:hover{
+    color: rgb(241, 117, 16);
+    background-color: white;
+    transition: all .5s ease;
+}
+@media (max-width:915px) and (min-width:400px){
+    .uyt{
+        font-size: 35px;
+    }
+}

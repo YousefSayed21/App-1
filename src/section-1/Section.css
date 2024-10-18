@@ -6,7 +6,7 @@
 }
 .sayed:hover{
     background-color: white;
-    color: rgb(241, 117, 16);
+    color: #f17510;
     transition: all .5s ease;
 }
 .img2{
@@ -20,10 +20,5 @@
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
-    /* .img2{
-        width: 80%;
-    } */
-    /* .full{
-        width: 80%;
-    } */
+
 }

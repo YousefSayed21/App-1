@@ -3,3 +3,10 @@
     transform: scale(1.2);
     transition: all .5s ease;
 }
+.ttt{
+    z-index: 500;
+}
+.btn-circle {
+  position: relative;
+  z-index: 600; /* Make sure the button is always on top */
+}
